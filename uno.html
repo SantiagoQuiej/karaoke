@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <title>Karaoque</title>
+
+</head>
+
+<body>
+
+    <div class="container d-flex text-center flex-column align-content-center flex-wrap mb-4 border border-1 mt-5 bg-dark">
+        <h1 style="color:white;" class="mt-5">🎙️ Musica para cantar</h1>
+        <div id="pantalla" class="m-5 w-50 d-flex justify-content-center align-items-center"
+            style="height:200px; background-color:cyan; border:1px solid black; border-radius:9px;">
+            🎵 Elige tu Musica 🎉
+        </div>
+        <div class="m-5">
+            <button id="boton1" class="btn btn-info mb-4" style="color:white;">Siguiente linea</button>
+            <button id="boton2" class="btn btn-info mb-4" style="color:white;">Reiniciar</button>
+            <select class="form-select" id="selector"
+                aria-label="Default select example">
+                <option selected hidden>Selecione la cancion</option>
+                <option value="Talvez">Talvez</option>
+                <option value="Reik">Reik</option>
+                <option value="Vicente">Vicente Fernandes</option>
+            </select>
+        </div>
+    </div>
+
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./uno.js"></script>
+</body>
+
+</html>
